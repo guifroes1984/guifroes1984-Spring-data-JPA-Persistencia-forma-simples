@@ -9,6 +9,10 @@ import javax.persistence.ManyToOne;
 
 @Entity
 public class Telefone {
+	
+	/**
+	 * 
+	 */
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
